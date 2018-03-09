@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chaumeil Ysé</title>
+    <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
+    <script src="scripts/jquery.colorbox-min.js"></script>
+
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/colorbox.css">
+  </head>
+  <body>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding" rel="stylesheet">
+        <header>
+            <div class="header-content">
+                <h1>Chaumeil Ysé</h1>
+                <p>Goldie Cassidy</p>
+                <p>Designer Graphique</p>
+            </div>
+          </header>
+
+          <section id="bio">
+            <h1>Biographie</h1>
+            <div class="bio-content-block">
+              <p>
+              Né le 17 décembre 1996, je suis actuellement étudiante en 3ème année de Design graphique à l'ECV Bordeaux. Passioné d'art et de mode, je suis toujours à la recherche de nouvelles découvertes.</p>
+            </div>
+          </section>
+
+          <section id="comp">
+
+     <h1>Quelque infos</h1>
+
+ <div class="comp-section-content">
+   <div class="comp-content">
+		<img class="image" src="images/image4.jpg" alt="kitsch">
+		<h2>Reine du kitsch</h2>
+		<p>Dauphins, interieur rose bonbon, bijoux à strass, ou créole de cagole. Le kitsch et le mauvais goût possède une esthètique unique, fascinante et repoussante à la fois.</p>
+		<p>
+			<a href="https://fr.wikipedia.org/wiki/Kitsch">En savoir plus</a>
+		</p>
+   </div>
+     <div class="comp-content">
+       <img class="image" src="images/images5.jpg" alt="matrice">
+       <h2>Encrée dans la matrice</h2>
+       <p>Entre illusions et réalité, le choix s'impose comme une évidence. Autant se retrouver dans la matrice là où tout semble être rose.</p>
+		<p>
+			<a href="https://www.youtube.com/watch?v=TgfLNObfwLg">En savoir plus</a>
+		</p>
+     </div>
+     <div class="comp-content">
+       <img class="image" src="images/images6.jpg" alt="fire">
+       <h2>Le feu brûle</h2>
+       <p>Comme Bob l'a si bien dit "fire walk with me". Un feu qui brûle à l'interieur de soi. Qui nous guide et nous consume. Une folie involontire. Pas toujours pour le meilleur.</p>
+		<p>
+			<a href="https://www.youtube.com/watch?v=vKBRyNNW3u0">En savoir plus</a>
+		</p>
+     </div>
+  </div>
+</section>
+
+<section id="portfolio">
+     <h1>Mon Portfolio</h1>
+     <div class="portfolio">
+         <div class="portfolio-content">
+        <a class='gallery' href='images/images1.jpg'><img src="images/images1.jpg" alt="Borderline"></a>
+        <p>Couverture pour Apacom</p>
+         </div>
+         <div class="portfolio-content">
+        <a class='gallery' href='images/images2.jpg'><img src="images/images2.jpg" alt="Coca"></a>
+        <p>Sculpture</p>
+         </div>
+         <div class="portfolio-content">
+        <a class='gallery' href='images/images3.jpg'><img src="images/images3.jpg" alt="Reload"></a>
+        <p>Illustration</p>
+         </div>
+
+     </div>
+   </section>
+<footer>
+        <div class="social-links">
+          <ul>
+            <li>Instagram : @goldie_cassidy</li>
+            <li>Email : y.chaumeil@gmail.com</li>
+            <li>Facebook : Goldie Cassidy</li>
+          </ul>
+
+        </div>
+
+      </footer>
+
+      <script>
+
+      $('a.gallery').colorbox({rel:'gal'});
+      </script>
+
+      <script>
+                    $(document).ready(function() {
+      $(".fancy_title").lettering();
+                    });
+              </script>
+
+              <script>
+                            jQuery(document).ready(function () {
+                              jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'group1' });
+                            });
+                          </script>
+
+  </body>
+</html>
